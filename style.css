@@ -1,0 +1,442 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+nav {
+  width: 100%;
+  height: 70px;
+  background-color: #252525;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  opacity: 0.9;
+  -webkit-box-shadow: 0px 1px 20px #6B6B6B;
+  box-shadow: 0px 1px 20px #6B6B6B;
+}
+nav h3 {
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-left: 20px;
+  font-weight: 500;
+  display: flex;
+  text-align: left;
+}
+nav ul li {
+  display: inline;
+  margin-left: 10px;
+}
+nav a:link {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 300;
+}
+nav a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 300;
+}
+nav a:hover {
+  color: #FFA9AB;
+  text-decoration: none;
+}
+nav ul {
+  margin-right: 20px;
+}
+header {
+    width: 100%;
+    height: 172vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: 0px 0px;
+    background-size: cover;
+    padding-top: 0px;
+    color: #FFFFFF;
+    background-image: url(assets/Illustrations%20_%20%20Espace%20n%C3%A9gatif%20_%20Negative%20space.jpg);
+}
+header h1 {
+    color: #EBEBEB;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 95px;
+    text-decoration: none;
+    text-shadow: 0px 0px 200px;
+    opacity: 1;
+    -webkit-box-shadow: 0px 0px 0px 5px;
+    box-shadow: 0px 0px 0px 5px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+header a:link {
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    background-color: #050505;
+    border-radius: 35px;
+    font-size: 22px;
+    color: #7B0303;
+    text-decoration: none;
+    background-position: 0% 75%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+header a:visited {
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  background-color: #FAFAFA;
+  border-radius: 35px;
+  font-size: 22px;
+  color: #7B0303;
+  text-decoration: none;
+}
+header a:hover {
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  background-color: #550E57;
+  border-radius: 35px;
+  font-size: 22px;
+  color: #F4F4F4;
+  text-decoration: none;
+}
+article {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+article h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    background-image: url(url);
+    width: 100%;
+    padding-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -58px;
+}
+#a01 h2 {
+    margin-top: -5px;
+}
+.define {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.course {
+  background-image: url(assets/programBG.jpg);
+}
+.container1 {
+    display: flex;
+    width: 70%;
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-size: large;
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+.container1 .left {
+  text-align: justify;
+  line-height: 100px;
+  margin-right: 10px;
+  display: flex;
+}
+.container1 .right {
+  flex: 1;
+  background-image: url(assets/program.jpg);
+  border-radius: 20px;
+  background-position: center center;
+  margin-left: 10px;
+}
+article p {
+    font-size: large;
+    line-height: 30px;
+    text-align: justify;
+    font-weight: bold;
+    width: 100%;
+}
+#a02 {
+    background-color: #96AAAB;
+    width: 100%;
+}
+
+.work1 {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+    font-size: large;
+    font-weight: bold;
+}
+.work2 {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: large;
+}
+.work3 {
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 30px;
+}
+
+
+
+.container3 {
+    display: flex;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 100px;
+    background-color: #98ABAC;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+}
+.container2 {
+    width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 671px;
+}
+
+.container4.right {
+    background-size: cover;
+    font-size: large;
+    display: flex;
+    line-height: 30px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: left;
+    background-image: url(assets/lucio.jpg);
+    flex: 1;
+}
+.container4 .left {
+    height: 400px;
+    font-size: large;
+    line-height: 30px;
+    text-align: left;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex: 1;
+    margin-top: 75px;
+}
+.container4 {
+    width: 80%;
+    display: flex;
+    background-image: url(assets/%E8%B2%A0%E7%A9%BA%E9%96%93%E8%97%9D%E8%A1%9303.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin-left: 120px;
+    height: 475px;
+}
+
+
+
+
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: #454545;
+  text-align: center;
+  font-size: 14px;
+  line-height: 60px;
+  color: #E6E6E6;
+}
+container4 .img {
+    display: flex;
+    align-items: center;
+}
+container3 img {
+    padding-bottom: 0px;
+}
+
+.img1 {
+  padding-left: 16px;
+}
+#a03 p {
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 39px;
+}
+
+
+
+
+.container3 .right {
+    height: 400px;
+    flex: 1;
+    line-height: 30px;
+    font-size: large;
+    margin-left: 25px;
+    text-indent: 0px;
+    margin-top: 100px;
+    text-align: left;
+    font-weight: normal;
+}
+.container3 .left {
+    height: 387px;
+    flex: 1;
+    background-position: center center;
+    margin-right: 5px;
+    background-size: cover;
+    background-image: url(assets/%E7%99%BD%E5%A4%A9%E5%92%8C%E5%A4%9C%E6%99%9A.jpg);
+    margin-top: 50px;
+}
+#a03 .container2 {
+    width: 81%;
+    height: 409px;
+}
+#a03 .container3 {
+}
+.w1 {
+    margin-left: auto;
+    margin-right: auto;
+
+
+    padding-top: 30
+\
+\;
+    padding-bottom: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.w2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.w3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 0px;
+}
+
+
+
+.p1 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 163px;
+    padding-top: 3px;
+}
+.s2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+.s3 {
+}
+.p2 {
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.p3 {
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+.container2 .left {
+    height: 400px;
+    font-size: large;
+    line-height: 30px;
+    text-align: left;
+    flex: 1;
+    margin-top: 194px;
+    margin-right: 68px;
+}
+.container2 .right {
+    flex: 1;
+    height: 400px;
+    padding-top: 0px;
+}
+#a04 {
+    background-color: #96AAAB;
+}
+.reading {
+    margin-left: 100px;
+    /* [disabled]display: flex; */
+    margin-right: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.reading .link {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.link p a:link {
+    background-color: #030303;
+    color: #FFFFFF;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 24px;
+    padding-left: 5px;
+    padding-right: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+
+
+.r1 {
+    font-size: large;
+    line-height: 30px;
+    margin-bottom: 19px;
+}
+.r2 {
+    display: flex;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
